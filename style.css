@@ -1,0 +1,65 @@
+/* Toda la página */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+/* Header */
+.container {
+    background-color: #007bff;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#title {
+    font-size: 20px;
+    text-align: start;
+    margin: 0;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+}
+
+
+ul a {
+    text-decoration: none;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 20px;
+    transition: background-color 0.3s ease;
+}
+
+ul a:hover {
+    background-color: #0056b3;
+}
+
+.active {
+    background-color: #0056b3;
+}
+
+/* Body */
+body {
+    background-color: #F7F9F2;
+}
+
+.section {
+    padding: 20px;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+    margin: 20px;
+    border-radius: 8px;
+    background-color: white;
+}
+
+/* Tabla de gráfica */
+.tableauPlaceholder {
+    width: 400px;
+}
